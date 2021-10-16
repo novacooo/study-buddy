@@ -1,6 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
-import UsersList from 'components/UsersList/UsersList';
+import styled, { ThemeProvider } from 'styled-components';
+import UsersList from 'components/organisms/UsersList/UsersList';
+import GlobalStyle from 'assets/styles/GlobalStyle';
+import { theme } from 'assets/styles/theme';
 
 const Wrapper = styled.div`
   display: flex;
@@ -11,13 +13,16 @@ const Wrapper = styled.div`
   padding: 50px;
   width: 100%;
   min-height: 100%;
-  background-color: #f7f8fa;
+  background-color: ${({ theme }) => theme.colors.lightGrey};
 `;
 
 const Root = () => (
-  <Wrapper>
-    <UsersList />
-  </Wrapper>
+  <ThemeProvider theme={theme}>
+    <GlobalStyle />
+    <Wrapper>
+      <UsersList />
+    </Wrapper>
+  </ThemeProvider>
 );
 
 export default Root;

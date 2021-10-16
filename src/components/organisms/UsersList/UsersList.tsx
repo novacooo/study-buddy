@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 import { users } from 'data/users';
-import UsersListItem from 'components/UsersListItem/UsersListItem';
+import UsersListItem from 'components/molecules/UsersListItem/UsersListItem';
 
 const Wrapper = styled.div`
   padding: 40px 30px;
   width: 100%;
   max-width: 500px;
-  background-color: #ffffff;
+  background-color: ${({ theme }) => theme.colors.white};
   border-radius: 25px;
   box-shadow: 0 5px 15px -10px hsla(0, 0%, 0%, 0.3);
 `;
