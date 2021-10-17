@@ -6,8 +6,8 @@ import UsersListItem from 'components/molecules/UsersListItem/UsersListItem';
 const UsersList = () => (
   <Wrapper>
     <StyledList>
-      {users.map((userData) => (
-        <UsersListItem data={userData} />
+      {users.map((userData, index) => (
+        <UsersListItem key={userData.name} index={index} data={userData} />
       ))}
     </StyledList>
   </Wrapper>
