@@ -7,10 +7,10 @@ export const Wrapper = styled.div<IUsersListBadgeProps>`
   align-items: center;
   width: 3.4rem;
   height: 3.4rem;
-  background: ${({ theme, score }) => {
-    if (score > 4) return theme.colors.success;
-    if (score > 3) return theme.colors.warning;
-    if (score > 2) return theme.colors.error;
+  background: ${({ theme, average }) => {
+    if (average > 4) return theme.colors.success;
+    if (average > 3) return theme.colors.warning;
+    if (average > 2) return theme.colors.error;
     return theme.colors.grey;
   }};
   border-radius: 1.7rem;

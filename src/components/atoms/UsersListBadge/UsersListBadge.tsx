@@ -1,9 +1,9 @@
 import { Wrapper } from './UsersListBadge.styles';
 
 export interface IUsersListBadgeProps {
-  score: number;
+  average: number;
 }
 
-const UsersListBadge = ({ score }: IUsersListBadgeProps) => <Wrapper score={score}>{score}</Wrapper>;
+const UsersListBadge = ({ average }: IUsersListBadgeProps) => <Wrapper average={average}>{average}</Wrapper>;
 
 export default UsersListBadge;

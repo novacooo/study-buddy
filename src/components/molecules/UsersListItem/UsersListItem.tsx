@@ -1,7 +1,6 @@
 import React from 'react';
 import { IUserData } from 'data/users';
-import { Wrapper } from './UsersListItem.styles';
-import Button from 'components/atoms/Button/Button';
+import { StyledButton, StyledText, Wrapper } from './UsersListItem.styles';
 import UsersListBadge from 'components/atoms/UsersListBadge/UsersListBadge';
 
 interface IUsersListItemProps {
@@ -10,12 +9,9 @@ interface IUsersListItemProps {
 
 const UsersListItem = ({ data: { name, attendance, average } }: IUsersListItemProps) => (
   <Wrapper>
-    <UsersListBadge score={average} />
-    <div>
-      <p>{name}</p>
-      <p>attendance {attendance}%</p>
-    </div>
-    <Button />
+    <UsersListBadge average={average} />
+    <StyledText name={name} attendance={attendance} />
+    <StyledButton />
   </Wrapper>
 );
 

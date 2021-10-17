@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  padding: 40px 30px;
+  padding: 20px 30px;
   width: 100%;
   max-width: 500px;
   background-color: ${({ theme }) => theme.colors.white};
