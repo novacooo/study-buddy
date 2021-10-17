@@ -3,7 +3,7 @@ export const theme = {
     white: '#FFFFFF',
     lightGrey: '#F7F8FA',
     grey: '#C0C7D6',
-    grey_hover: '#A9B3C7',
+    greyHover: '#A9B3C7',
     darkGrey: '#737C8E',
     black: '#111111',
     success: '#8FCB81',
@@ -11,6 +11,8 @@ export const theme = {
     warning: '#E1D888',
     lightPurple: '#C0C7D6',
     border: '#DFE2E8',
+    buttonBg: '#DFE2EB',
+    buttonBgHover: '#D6DBE7',
   },
   fontSize: {
     xl: '2.4rem',
