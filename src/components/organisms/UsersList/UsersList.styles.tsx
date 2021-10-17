@@ -18,5 +18,5 @@ export const StyledList = styled.ul`
 export const LoadingText = styled.h1`
   font-size: ${({ theme }) => theme.fontSize.l};
   font-weight: ${({ theme }) => theme.fontWeight.bold};
-  color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.darkGrey};
 `;
