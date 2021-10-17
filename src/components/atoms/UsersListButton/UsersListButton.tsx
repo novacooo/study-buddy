@@ -3,7 +3,7 @@ import { StyledButton, StyledDeleteIcon } from './UsersListButton.styles';
 
 interface IUsersListButtonProps {
   className?: string;
-  onClick?: () => void;
+  onClick?: (arg: any) => void;
 }
 
 const UsersListButton = ({ className, onClick }: IUsersListButtonProps) => (
