@@ -9,11 +9,11 @@ export const Wrapper = styled.div`
 export const Name = styled.p`
   font-size: ${({ theme }) => theme.fontSize.l};
   font-weight: ${({ theme }) => theme.fontWeight.bold};
-  color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.darkGrey};
 `;
 
 export const Attendance = styled.div`
   font-size: ${({ theme }) => theme.fontSize.s};
   font-weight: ${({ theme }) => theme.fontWeight.regular};
-  color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.darkGrey};
 `;
