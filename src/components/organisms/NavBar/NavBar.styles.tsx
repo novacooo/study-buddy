@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: 120px;
-  height: 100vh;
+  width: 150px;
+  min-height: 100%;
   background-color: ${({ theme }) => theme.colors.lightGrey};
   border-right: 1px solid ${({ theme }) => theme.colors.border};
 `;
