@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import { IUserData, users as usersData } from 'data/users';
-import UsersList from 'components/organisms/UsersList/UsersList';
+import AddUser from 'views/AddUser/AddUser';
+import Dashboard from 'views/Dashboard/Dashboard';
 import GlobalStyle from 'assets/styles/GlobalStyle';
 import { theme } from 'assets/styles/theme';
-import Form from 'components/organisms/Form/Form';
 import MainTemplate from 'components/templates/MainTemplate/MainTemplate';
 
 const mockAPI = () => {
@@ -70,10 +70,10 @@ const Root = () => {
         <MainTemplate>
           <Switch>
             <Route exact path="/">
-              <UsersList users={users} isLoading={isLoading} deleteUser={deleteUser} />
+              <Dashboard users={users} isLoading={isLoading} deleteUser={deleteUser} />
             </Route>
             <Route exact path="/add-user">
-              <Form formValues={formValues} handleInputChange={handleInputChange} handleAddUser={handleAddUser} />
+              <AddUser formValues={formValues} handleInputChange={handleInputChange} handleAddUser={handleAddUser} />
             </Route>
           </Switch>
         </MainTemplate>

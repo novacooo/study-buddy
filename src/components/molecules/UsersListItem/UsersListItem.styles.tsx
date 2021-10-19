@@ -7,7 +7,6 @@ export const Wrapper = styled.li`
   align-items: center;
   position: relative;
   padding: 25px 0;
-  background-color: white;
 
   &:not(:last-child)::after {
     content: '';

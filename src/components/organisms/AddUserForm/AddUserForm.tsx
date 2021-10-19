@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormWrapper } from './Form.styles';
+import { FormWrapper } from './AddUserForm.styles';
 import FormField from 'components/molecules/FormField/FormField';
 import Button from 'components/atoms/Button/Button';
 
@@ -15,7 +15,7 @@ interface IFormProps {
   handleInputChange: (e: any) => void;
 }
 
-const Form = ({ handleAddUser, formValues, handleInputChange }: IFormProps) => (
+const AddUserForm = ({ handleAddUser, formValues, handleInputChange }: IFormProps) => (
   <FormWrapper onSubmit={handleAddUser}>
     <FormField label="Name" name="name" id="name" value={formValues.name} onChange={handleInputChange} />
     <FormField label="Attendance" name="attendance" id="attendance" type="number" value={formValues.attendance} onChange={handleInputChange} />
@@ -24,4 +24,4 @@ const Form = ({ handleAddUser, formValues, handleInputChange }: IFormProps) => (
   </FormWrapper>
 );
 
-export default Form;
+export default AddUserForm;
