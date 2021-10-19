@@ -17,6 +17,10 @@ export const StyledButton = styled.button`
     cursor: pointer;
     background-color: ${({ theme }) => theme.colors.greyHover};
   }
+
+  &:focus {
+    box-shadow: ${({ theme }) => theme.shadows.outline};
+  }
 `;
 
 export const StyledDeleteIcon = styled(DeleteIcon)`
