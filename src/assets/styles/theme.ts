@@ -11,7 +11,7 @@ export const theme = {
     warning: '#E1D888',
     lightPurple: '#C0C7D6',
     border: '#DFE2E8',
-    buttonBg: '#DFE2EB',
+    buttonBg: '#ECEFF7',
     buttonBgHover: '#D6DBE7',
   },
   fontSize: {
@@ -23,6 +23,9 @@ export const theme = {
   fontWeight: {
     regular: '400',
     bold: '700',
+  },
+  shadows: {
+    outline: '0px 0px 0px 3px rgba(192, 199, 214, 0.4)',
   },
 };
 

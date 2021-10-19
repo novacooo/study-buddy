@@ -1,19 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-import { HashRouter, Switch, Route, Link } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import { IUserData, users as usersData } from 'data/users';
 import UsersList from 'components/organisms/UsersList/UsersList';
 import GlobalStyle from 'assets/styles/GlobalStyle';
 import { theme } from 'assets/styles/theme';
 import Form from 'components/organisms/Form/Form';
+import NavBar from 'components/organisms/NavBar/NavBar';
 
 const Wrapper = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  padding: 50px;
+  align-items: flex-start;
   width: 100%;
   min-height: 100%;
   background-color: ${({ theme }) => theme.colors.lightGrey};
@@ -79,10 +76,7 @@ const Root = () => {
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Wrapper>
-          <nav>
-            <Link to="/">Home</Link>
-            <Link to="/add-user">Add user</Link>
-          </nav>
+          <NavBar />
           <Switch>
             <Route exact path="/">
               <UsersList users={users} isLoading={isLoading} deleteUser={deleteUser} />
