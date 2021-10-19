@@ -12,6 +12,7 @@ const Button = styled.button`
   &:hover {
     cursor: pointer;
     background-color: ${({ theme }) => theme.colors.buttonBgHover};
+    border: 1px solid ${({ theme }) => theme.colors.buttonBgHover};
   }
 
   &:focus {

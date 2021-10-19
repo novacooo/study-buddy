@@ -12,7 +12,7 @@ export const theme = {
     lightPurple: '#C0C7D6',
     border: '#DFE2E8',
     buttonBg: '#ECEFF7',
-    buttonBgHover: '#D6DBE7',
+    buttonBgHover: '#E6E9F2',
   },
   fontSize: {
     xl: '2.4rem',
