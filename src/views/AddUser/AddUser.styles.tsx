@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 
-export const FormWrapper = styled.form`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 17px;
-  margin-bottom: 40px;
+export const Wrapper = styled.div`
   padding: 20px 30px;
   width: 100%;
   max-width: 500px;
