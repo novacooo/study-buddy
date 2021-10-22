@@ -1,18 +1,15 @@
-import React from 'react';
-import { IUserData } from 'data/users';
+import React, { useContext } from 'react';
 import { StyledList } from './UsersList.styles';
 import UsersListItem from 'components/molecules/UsersListItem/UsersListItem';
+import { UsersContext } from 'providers/UsersProvider';
 
-interface IUsersListProps {
-  users: IUserData[];
-  deleteUser: (name: string) => void;
-}
+const UsersList = () => {
+  const { users } = useContext(UsersContext);
 
-const UsersList = ({ users, deleteUser }: IUsersListProps) => {
   return (
     <StyledList>
-      {users.map((userData, index) => (
-        <UsersListItem key={userData.name} onClickDeleteButton={deleteUser} index={index} data={userData} />
+      {users.map((userData) => (
+        <UsersListItem key={userData.name} data={userData} />
       ))}
     </StyledList>
   );

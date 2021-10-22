@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53b8cf7b-e1ee-43da-b393-981f91b66417" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/providers/UsersProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/AddUser/AddUser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/AddUser/AddUser.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Root/Root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root/Root.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zsZTrxYcvsSbI0yWxSud6Kjtgn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53b8cf7b-e1ee-43da-b393-981f91b66417" name="Changes" comment="" />
+      <created>1634938766922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634938766922</updated>
+      <workItem from="1634938770451" duration="3735000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

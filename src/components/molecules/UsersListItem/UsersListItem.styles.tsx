@@ -23,6 +23,5 @@ export const StyledText = styled(UsersListText)`
 `;
 
 export const StyledButton = styled(UsersListButton)`
-  align-self: flex-start;
   margin-left: 15px;
 `;
