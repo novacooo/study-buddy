@@ -11,8 +11,8 @@ export const theme = {
     warning: '#E1D888',
     lightPurple: '#C0C7D6',
     border: '#DFE2E8',
-    buttonBg: '#ECEFF7',
-    buttonBgHover: '#E6E9F2',
+    buttonBg: '#DFE2EB',
+    buttonBgHover: '#D6DBE7',
   },
   fontSize: {
     xl: '2.4rem',
