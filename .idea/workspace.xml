@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b8cf7b-e1ee-43da-b393-981f91b66417" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/providers/UsersProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.styles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/AddUser/AddUser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/AddUser/AddUser.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Root/Root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root/Root.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/RenderWithThemeProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/AddUser/AddUser.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +35,11 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.test">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -54,8 +50,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -68,7 +75,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634938766922</updated>
-      <workItem from="1634938770451" duration="4018000" />
+      <workItem from="1634938770451" duration="4265000" />
+      <workItem from="1634943552597" duration="139000" />
+      <workItem from="1634996752413" duration="356000" />
+      <workItem from="1635005415123" duration="240000" />
+      <workItem from="1635016949566" duration="1842000" />
+      <workItem from="1635022600092" duration="3130000" />
     </task>
     <servers />
   </component>
