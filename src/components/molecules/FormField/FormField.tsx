@@ -16,7 +16,7 @@ interface IFormFieldProps {
 const FormField = ({ label, name, id, type = 'text', step, value, onChange }: IFormFieldProps) => (
   <Wrapper>
     <Label htmlFor={id}>{label}</Label>
-    <Input name={name} id={id} type={type} step={step} value={value} onChange={onChange} />
+    <Input name={name} id={id} type={type} step={step} value={value} onChange={onChange} data-testid={label} />
   </Wrapper>
 );
 
