@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { IUserData, users as usersData } from 'data/users';
-import { IFormValues } from 'views/AddUser/AddUser';
+import { IFormState } from 'hooks/useForm';
 
 interface IUsersContext {
   users: IUserData[];
-  handleAddUser: (formValues: IFormValues) => void;
+  handleAddUser: (formValues: IFormState) => void;
   deleteUser: (name: string) => void;
 }
 
@@ -28,7 +28,7 @@ const UsersProvider = ({ children }: IUsersProviderProps) => {
     setUsers(filteredUsers);
   };
 
-  const handleAddUser = (formValues: IFormValues) => {
+  const handleAddUser = (formValues: IFormState) => {
     const newUser: IUserData = {
       name: formValues.name,
       attendance: parseInt(formValues.attendance),
