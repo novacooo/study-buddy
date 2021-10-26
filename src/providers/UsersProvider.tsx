@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { IUserData, users as usersData } from 'data/users';
-import { IFormState } from 'views/AddUser/AddUser';
+import { IFormState } from 'hooks/useForm';
 
 interface IUsersContext {
   users: IUserData[];
