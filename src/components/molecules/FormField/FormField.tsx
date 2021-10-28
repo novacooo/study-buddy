@@ -1,7 +1,7 @@
 import React from 'react';
 import { Wrapper } from './FormField.styles';
-import { Input } from 'components/atoms/Input/Input';
-import { Label } from 'components/atoms/Label/Label';
+import Input from 'components/atoms/Input/Input';
+import Label from 'components/atoms/Label/Label';
 
 interface IFormFieldProps {
   label: string;

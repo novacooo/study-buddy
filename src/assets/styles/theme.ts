@@ -26,6 +26,7 @@ export const theme = {
   },
   shadows: {
     outline: '0px 0px 0px 3px rgba(192, 199, 214, 0.4)',
+    searchBar: '-2px 4px 10px rgba(115, 124, 142, 0.09);',
   },
 };
 
