@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/study-buddy/static/js/main.e4cd05b1.chunk.js",
+    "main.js.map": "/study-buddy/static/js/main.e4cd05b1.chunk.js.map",
+    "runtime-main.js": "/study-buddy/static/js/runtime-main.820d449a.js",
+    "runtime-main.js.map": "/study-buddy/static/js/runtime-main.820d449a.js.map",
+    "static/js/2.9f57ff78.chunk.js": "/study-buddy/static/js/2.9f57ff78.chunk.js",
+    "static/js/2.9f57ff78.chunk.js.map": "/study-buddy/static/js/2.9f57ff78.chunk.js.map",
+    "index.html": "/study-buddy/index.html",
+    "static/js/2.9f57ff78.chunk.js.LICENSE.txt": "/study-buddy/static/js/2.9f57ff78.chunk.js.LICENSE.txt",
+    "static/media/delete.3909728d.svg": "/study-buddy/static/media/delete.3909728d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.820d449a.js",
+    "static/js/2.9f57ff78.chunk.js",
+    "static/js/main.e4cd05b1.chunk.js"
+  ]
+}
