@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Input from 'components/atoms/Input/Input';
 
 interface IStatusTextProps {
-  name?: boolean;
+  isBig?: boolean;
 }
 
 export const SearchBarWrapper = styled.div`
@@ -36,6 +36,6 @@ export const StatusInfo = styled.div`
 export const StatusText = styled.p<IStatusTextProps>`
   margin: 3px 0;
   color: ${({ theme }) => theme.colors.darkGrey};
-  font-size: ${({ theme, name }) => (name ? theme.fontSize.l : theme.fontSize.m)};
-  font-weight: ${({ theme, name }) => (name ? theme.fontWeight.bold : theme.fontWeight.regular)};
+  font-size: ${({ theme, isBig }) => (isBig ? theme.fontSize.l : theme.fontSize.m)};
+  font-weight: ${({ theme, isBig }) => (isBig ? theme.fontWeight.bold : theme.fontWeight.regular)};
 `;

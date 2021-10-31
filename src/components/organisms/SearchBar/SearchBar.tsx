@@ -6,7 +6,7 @@ const SearchBar = () => (
   <SearchBarWrapper>
     <StatusInfo>
       <StatusText>Logged as:</StatusText>
-      <StatusText name>Teacher</StatusText>
+      <StatusText isBig>Teacher</StatusText>
     </StatusInfo>
     <Input placeholder="Search for student..." />
   </SearchBarWrapper>
