@@ -4,6 +4,7 @@ import Button from 'components/atoms/Button/Button';
 export const Wrapper = styled.div`
   grid-row: 1 / 3;
   grid-column: 3 / 3;
+  overflow-y: scroll;
   padding: 30px 45px;
   border-left: 1px solid ${({ theme }) => theme.colors.border};
 `;
@@ -42,8 +43,19 @@ export const Subtitle = styled.h5`
   color: ${({ theme }) => theme.colors.darkGrey};
 `;
 
+export const ContentWrapper = styled.div`
+  display: flex;
+
+  img {
+    margin-left: 20px;
+    width: calc(50% - 20px);
+    object-fit: cover;
+  }
+`;
+
 export const Text = styled.p`
   margin-top: 12px;
+  line-height: 1.6;
   font-size: ${({ theme }) => theme.fontSize.s};
   font-weight: ${({ theme }) => theme.fontWeight.regular};
   color: ${({ theme }) => theme.colors.darkGrey};

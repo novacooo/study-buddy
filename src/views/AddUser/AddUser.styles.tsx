@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+  justify-self: center;
+  align-self: center;
   padding: 20px 30px;
   width: 100%;
   max-width: 500px;
