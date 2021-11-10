@@ -55,17 +55,21 @@ const NewsSection = () => {
     <Wrapper>
       <Header>University news feed</Header>
       <ArticlesList>
-        {articles.map(({ id, title, category, content, image }: IArticle) => (
-          <ArticleWrapper key={id}>
-            <Title>{title}</Title>
-            <Subtitle>{category}</Subtitle>
-            <ContentWrapper>
-              <Text>{content}</Text>
-              {image && <img alt={image.alt} src={image.url} />}
-            </ContentWrapper>
-            <StyledButton>Read more</StyledButton>
-          </ArticleWrapper>
-        ))}
+        {articles.length > 0 ? (
+          articles.map(({ id, title, category, content, image }: IArticle) => (
+            <ArticleWrapper key={id}>
+              <Title>{title}</Title>
+              <Subtitle>{category}</Subtitle>
+              <ContentWrapper>
+                <Text>{content}</Text>
+                {image && <img alt={image.alt} src={image.url} />}
+              </ContentWrapper>
+              <StyledButton>Read more</StyledButton>
+            </ArticleWrapper>
+          ))
+        ) : (
+          <Title>Loading...</Title>
+        )}
       </ArticlesList>
     </Wrapper>
   );
